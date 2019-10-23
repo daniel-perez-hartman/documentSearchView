@@ -103,7 +103,7 @@ function App() {
         const arrayDocuments = onChangeDocumentsByText(text, selectedStates);
         setDocuments(arrayDocuments);
 
-        const arrayStates = constructObjectDefault(selectedField, arrayDocuments);
+        const arrayStates = updateStateData(arrayDocuments);
         setStatesData(arrayStates);
 
         setInputText(text);
@@ -186,10 +186,10 @@ function App() {
 
             <DocumentsViewer
                 states={statesData}
-                callback={updateDocumentsByState}
-                callback2={cleanDocumentsByState}
-                callback3={updateSelectedStates}
-                callback4={updatesStates}
+                updateDocumentsByState={updateDocumentsByState}
+                cleanDocumentsByState={cleanDocumentsByState}
+                updateSelectedStates={updateSelectedStates}
+                updatesStates={updatesStates}
                 selectedStates={selectedStates}
             />
          </div>

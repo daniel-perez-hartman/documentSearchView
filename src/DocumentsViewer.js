@@ -70,26 +70,26 @@ function DocumentsViewer(props){
         if(!array.includes(value)){
             array.push(value);
             states = changeStateDataTrue(value);
-            props.callback3(array);
-            props.callback4(states);
+            props.updateSelectedStates(array);
+            props.updatesStates(states);
         }
         else {
             const index = array.indexOf(value);
 
             array.splice(index, 1);
             states = changeStateDataFalse(value);
-            props.callback3(array);
-            props.callback4(states);
+            props.updateSelectedStates(array);
+            props.updatesStates(states);
         }
     }
 
     function defaultState(){
-        props.callback2();
-        props.callback3([]);
+        props.cleanDocumentsByState();
+        props.updateSelectedStates([]);
     }
 
     function updateStates(){
-        props.callback();
+        props.updateDocumentsByState();
     }
 
     function renderStates(){
