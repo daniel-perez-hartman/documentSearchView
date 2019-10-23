@@ -1,0 +1,154 @@
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-1-1 {
+    display: flex;
+    flex-flow: column;
+    margin: 2.5%;
+    padding: 2%;
+    width: 15.625em;
+    background: whitesmoke;
+    box-shadow: 0.2em 0.2em 0.65em #666;
+    height: 17em;
+}
+
+.container-1-2 {
+    margin: 2.5%;
+    padding: 2%;
+    background: whitesmoke;
+    box-shadow: 0.2em 0.2em 0.65em #666;
+}
+
+.container-1-1-2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.styled-select {
+    width: 15em;
+    overflow: hidden;
+    display: inline-block;
+    background: url(\down.png) no-repeat right white;
+    margin-bottom: 2em;
+    border: 0.125em solid black;
+    border-radius: 0.1875em;
+    position: relative;
+}
+
+select {
+    background: transparent;
+    font-size: 1em;
+    padding: 0.25em 1em;
+    border: none;
+    width: 15em;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+}
+
+select:focus{ outline: none;}
+
+label {
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.tableHead {
+    background: gainsboro;
+}
+
+th {
+    width: 12.5em;
+}
+
+table, th, td {
+    background: white;
+    border: 0.125em solid black;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+    padding: 0.25em 1em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.25em 1em;
+    border: 0.125em solid black;
+    border-radius: 0.1875em;
+    background: transparent;
+    width: 12.5em;
+}
+
+.selection-button {
+    padding: unset;
+    display: flex;
+    flex-direction: row;
+    margin: 0.1em;
+    height: 1.5625em;
+    border: none;
+    background: gainsboro;
+}
+
+.selected-button {
+    padding: unset;
+    display: flex;
+    flex-direction: row;
+    margin: 0.1em;
+    height: 1.5625em;
+    border: none;
+    background: lightblue;
+}
+
+.selection-button:hover {
+    background: lightgray;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.button-filter {
+    margin-right: 1em;
+}
+
+.button-style {
+    background: white;
+}
+
+.button-style:hover {
+    border: none;
+    background: black;
+    color: white;
+}
+
+.button-div-extern {
+    width: 10%;
+    float : right;
+    text-align: center;
+}
+
+.button-div-middle {
+    width: 80%;
+    text-align: center;
+    padding: 0.125em;
+}
+
+.button-div-final {
+    padding: 0.125em;
+    color: darkgrey;
+}
+
+input {
+    background: white;
+    font-size: 1em;
+    border: 0.125em solid black;
+    border-radius: 0.1875em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
