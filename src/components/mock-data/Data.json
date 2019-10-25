@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "The Little Prince",
+    "status": "Finished",
+    "gender": "History"
+  },
+  {
+    "id": 2,
+    "name": "Da Vinci Code",
+    "status": "In progress",
+    "gender": "Novel"
+  },
+  {
+    "id": 3,
+    "name": "Heart",
+    "status": "Edition",
+    "gender": "Novel"
+  },
+  {
+    "id": 4,
+    "name": "Earth book",
+    "status": "Edition",
+    "gender": "History"
+  },
+  {
+    "id": 5,
+    "name": "Fire Book",
+    "status": "Edition",
+    "gender": "Drama"
+  },
+  {
+    "id": 6,
+    "name": "Water Book",
+    "status": "In progress",
+    "gender": "Fiction"
+  }
+]
